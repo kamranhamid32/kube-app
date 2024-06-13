@@ -14,7 +14,7 @@ spec:
       labels:
         app: vprodb
     spec:
-      conatiners:
+      containers:
         - name: vprodb
           image: kamranhub/vprofiledb
           volumeMounts:
